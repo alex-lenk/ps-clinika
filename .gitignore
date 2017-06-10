@@ -1,0 +1,7 @@
+.idea/
+bower_components/
+hram.iml
+node_modules/
+build/
+sources/
+ps-clinika.iml
