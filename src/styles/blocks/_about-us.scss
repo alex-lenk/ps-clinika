@@ -1,0 +1,54 @@
+.about-us {
+  margin-bottom: 70px;
+}
+
+.about-us-title {
+  margin: 0 0 60px;
+  padding: 0;
+  font-weight: normal;
+  font-size: 37px;
+  color: #222;
+}
+
+.about-us-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  column-count: 2;
+  column-gap: 40px;
+}
+
+.about-us-list-point {
+  margin-bottom: 35px;
+  &::before {
+    width: 40px;
+    height: 3px;
+    margin-bottom: 20px;
+    display: block;
+    content: '';
+    background-color: #0086c9;
+  }
+}
+
+.about-us-list-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.about-us-list-text {
+  font-size: 15px;
+}
+
+.about-us-media {
+  margin-left: 55px;
+  max-width: 360px;
+  flex: 1 0 360px;
+  img {
+    border-radius: 10px;
+  }
+}
