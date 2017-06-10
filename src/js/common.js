@@ -1,8 +1,7 @@
-$('.single-item').slick();
-
-$('body').blurjs({
-    source: 'body',
-    radius: 7,
-    overlay: 'rgba(255,255,255,0.4)'
+$(document).ready(function () {
+    $('.single-item').slick({
+        dots: true,
+        arrows: false,
+        fade: true
+    });
 });
-
