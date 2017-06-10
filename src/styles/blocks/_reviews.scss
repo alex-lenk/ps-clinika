@@ -1,0 +1,57 @@
+.reviews {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  position: relative;
+  background-color: #f5f7f9;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews-item {
+  padding-top: 30px;
+  background: url(../img/quote.png) no-repeat left top;
+  max-width: calc(100% / 3 - 30px);
+  flex-basis: calc(100% / 3 - 30px);
+}
+
+.reviews-text {
+  min-height: 150px;
+  margin-bottom: 10px;
+  color: #404553;
+  line-height: 1.6;
+}
+
+.reviews-user {
+  display: flex;
+  align-items: center;
+}
+
+.reviews-avatar {
+  width: 56px;
+  height: 56px;
+  margin-right: 15px;
+  position: relative;
+  img {
+    position: relative;
+    z-index: 5;
+    border-radius: 50%;
+  }
+}
+
+.reviews-avatar-default {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 58px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  z-index: 3;
+  background-color: #19b5fe;
+}
+
+.reviews-user-name {
+  font-size: 18px;
+}

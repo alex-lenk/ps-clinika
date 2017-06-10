@@ -127,3 +127,21 @@ button, input, select, textarea {
   padding-right: 50px;
   margin: 0 auto;
 }
+
+.bg-color-full {
+  &::after, &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 150rem;
+    top: 0;
+    background-color: inherit;
+  }
+  &::before {
+    left: 100%;
+  }
+  &::after {
+    right: 100%;
+  }
+}
