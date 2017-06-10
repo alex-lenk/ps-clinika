@@ -11,7 +11,7 @@
     position: absolute;
     bottom: 65px;
     list-style: none;
-    padding-left: 85px;
+    padding-left: 104px;
     margin-bottom: 0;
     display: flex;
     align-items: center;
@@ -23,13 +23,14 @@
       background-color: #2698f0;
     }
     button {
-      background-color: #fff;
+      padding: 0;
       border: 0;
       width: 10px;
       height: 10px;
       border-radius: 50%;
       text-indent: -9999px;
       display: block;
+      background-color: #fff;
       box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
       @include transition(all, ease);
     }
