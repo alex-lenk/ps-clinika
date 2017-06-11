@@ -67,6 +67,11 @@
 @mixin GeometriaMedium {
   font-family: 'Geometria-Medium', Helvetica, Arial, sans-serif;
 }
+
+@mixin GeometriaMediumItalic {
+  font-family: 'Geometria-MediumItalic', Helvetica, Arial, sans-serif;
+}
+
 @mixin GeometriaBold {
   font-family: 'Geometria-Bold', Helvetica, Arial, sans-serif;
   font-weight: normal;

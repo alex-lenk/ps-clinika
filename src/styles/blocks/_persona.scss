@@ -1,0 +1,47 @@
+.persona {
+  background: url(../img/bg.jpg) no-repeat right top;
+}
+
+.persona-content {
+  width: 73%;
+  margin-left: -30px;
+  padding: 130px 30px 130px 60px;
+  color: #2e2e2e;
+  background-color: rgba(#fff, .6);
+}
+
+.persona-title {
+  margin-bottom: 40px;
+  font-size: 20px;
+  color: #2e2e2e;
+  text-transform: uppercase;
+  @include GeometriaBold;
+}
+
+.persona-text {
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 1.7;
+  @include GeometriaMediumItalic;
+  &::before, &::after {
+    display: inline;
+    font-size: 33px;
+    line-height: 1;
+  }
+  &::before {
+    margin-left: -30px;
+    margin-right: 10px;
+    content: '«';
+  }
+  &::after {
+    content: '»';
+    bottom: -4px;
+    position: relative;
+  }
+}
+
+.persona-signature {
+  display: block;
+  margin-top: -20px;
+  margin-left: 70px;
+}
