@@ -16,16 +16,22 @@
   margin-bottom: 35px;
   color: #0086c9;
   font-size: 28px;
+  line-height: 1;
   @include GeometriaMedium;
   a {
     border-bottom: 0;
   }
 }
 
+.panel {
+  margin-bottom: 10px;
+}
+
 .panel-title {
   padding-left: 20px;
   font-size: 18px;
   position: relative;
+  cursor: pointer;
   @include GeometriaBold;
   &::before {
     position: absolute;
@@ -46,13 +52,19 @@
   }
 }
 
-.collapsed::after {
-  width: 0;
+.collapsed {
+  transition: all .5s ease;
+  &:hover {
+    color: #0086c9;
+  }
+  &::after {
+    width: 0;
+  }
 }
 
 .panel-body {
   padding-top: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.6;
 }

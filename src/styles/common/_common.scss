@@ -151,13 +151,8 @@ button, input, select, textarea {
   background-image: url(../img/spritesheet.png);
   background-repeat: no-repeat;
   display: block;
-
   &-fb {
     @include stitches-sprite(-5px, -5px, 14px, 24px);
-  }
-
-  &-quote {
-    @include stitches-sprite(-29px, -5px, 20px, 16px);
   }
 
   &-tw {

@@ -1,5 +1,5 @@
 .reviews {
-  padding-top: 65px;
+  padding-top: 70px;
   padding-bottom: 73px;
   position: relative;
   background-color: #f5f7f9;
@@ -8,17 +8,26 @@
 }
 
 .reviews-item {
-  padding-top: 30px;
-  background: url(../img/quote.png) no-repeat left top;
+  padding-top: 33px;
+  position: relative;
   max-width: calc(100% / 3 - 30px);
   flex-basis: calc(100% / 3 - 30px);
+  &::before {
+    width: 20px;
+    height: 16px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/spritesheet.png) no-repeat -29px -5px;
+  }
 }
 
 .reviews-text {
   min-height: 150px;
   margin-bottom: 10px;
   color: #404553;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .reviews-user {

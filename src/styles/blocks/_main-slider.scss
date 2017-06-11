@@ -16,11 +16,14 @@
     display: flex;
     align-items: center;
     width: 50%;
-    li:not(:last-of-type) {
-      margin-right: 25px;
-    }
-    li:not(.slick-active) button:hover {
-      background-color: #2698f0;
+    li {
+      cursor: pointer;
+      &:not(:last-of-type) {
+        margin-right: 25px;
+      }
+      &:not(.slick-active) button:hover {
+        background-color: #2698f0;
+      }
     }
     button {
       padding: 0;
@@ -43,7 +46,7 @@
 .main-slider-content {
   width: 50%;
   height: 100%;
-  padding-left: 85px;
+  padding-left: 65px;
   top: 0;
   left: 0;
   position: absolute;
@@ -71,10 +74,11 @@
 }
 
 .main-slider-title {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   font-size: 44px;
   position: relative;
   z-index: 7;
+  line-height: 1;
   @include GeometriaBold;
 }
 
