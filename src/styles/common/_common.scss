@@ -129,6 +129,7 @@ button, input, select, textarea {
 }
 
 .bg-color-full {
+  position: relative;
   &::after, &::before {
     content: '';
     display: block;
@@ -143,5 +144,31 @@ button, input, select, textarea {
   }
   &::after {
     right: 100%;
+  }
+}
+
+.sprite {
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+
+  &-fb {
+    @include stitches-sprite(-5px, -5px, 14px, 24px);
+  }
+
+  &-quote {
+    @include stitches-sprite(-29px, -5px, 20px, 16px);
+  }
+
+  &-tw {
+    @include stitches-sprite(-29px, -31px, 24px, 18px);
+  }
+
+  &-vk {
+    @include stitches-sprite(-63px, -5px, 31px, 18px);
+  }
+
+  &-yt {
+    @include stitches-sprite(-63px, -33px, 24px, 16px);
   }
 }

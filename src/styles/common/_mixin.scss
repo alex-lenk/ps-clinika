@@ -64,6 +64,12 @@
   @content;
 }
 
+@mixin stitches-sprite($x: 0, $y: 0, $width: 0, $height: 0) {
+  background-position: $x $y;
+  width: $width;
+  height: $height;
+}
+
 @mixin GeometriaMedium {
   font-family: 'Geometria-Medium', Helvetica, Arial, sans-serif;
 }
