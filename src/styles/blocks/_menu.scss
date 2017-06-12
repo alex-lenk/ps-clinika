@@ -1,7 +1,11 @@
 .nav-menu {
+  width: 100%;
+  z-index: 99;
+  background-color: #fff;
   margin-bottom: 20px;
   border-top: 2px solid #acd6f3;
   box-shadow: 0 19px 20px rgba(#0b5d7d, .18);
+  @include transition(all, ease);
 }
 
 .menu {

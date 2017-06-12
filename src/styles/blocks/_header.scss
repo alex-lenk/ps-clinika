@@ -29,7 +29,7 @@ header {
 
 .header-support-orders {
   padding-top: 15px;
-  a {
+  .support-orders-item {
     font-size: 15px;
     text-transform: uppercase;
     @include GeometriaBold;

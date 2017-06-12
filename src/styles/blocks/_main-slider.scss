@@ -1,6 +1,10 @@
 .main-slider {
-  margin-bottom: 70px;
+  max-height: 630px;
+  padding-bottom: 70px;
+  overflow: hidden;
+  position: relative;
   .slick-list {
+    overflow: hidden;
     border: 19px solid #fff;
     box-shadow: 0 9px 24px 5px rgba(11, 93, 125, 0.26);
   }
