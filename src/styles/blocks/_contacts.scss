@@ -2,17 +2,7 @@
   display: flex;
 }
 
-.contacts-block {
-  max-width: calc(100% / 3);
-  flex-basis: calc(100% / 3);
-  &:not(:first-of-type):not(:last-of-type) {
-    border-left: 1px solid #e4e4e4;
-    border-right: 1px solid #e4e4e4;
-  }
-}
-
 .contacts-info {
-  padding: 125px 20px 45px 0;
   line-height: 2.1;
 }
 
@@ -27,13 +17,6 @@
 .contacts-order {
   padding: 60px 40px 125px 50px;
   position: relative;
-  .btn {
-    position: absolute;
-    bottom: 45px;
-    left: 50px;
-    padding: 19px 37px;
-    letter-spacing: 2px;
-  }
   a {
     border-bottom: 0;
   }

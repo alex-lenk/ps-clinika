@@ -7,20 +7,6 @@ footer {
   padding-top: 135px;
   padding-bottom: 80px;
   border-bottom: 1px solid #fff;
-  .form-group {
-    width: 326px;
-    margin: 0 13px 0 0;
-    display: inline-block;
-    vertical-align: top;
-    &:last-of-type {
-      width: 382px;
-    }
-  }
-  .btn-blue-light {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
 }
 
 .consultation-title {
@@ -30,7 +16,6 @@ footer {
 }
 
 .consultation-form {
-  display: inline-block;
   position: relative;
 }
 
@@ -53,11 +38,9 @@ footer {
 .socials {
   display: flex;
   align-items: center;
-  li {
-    &:not(:first-child) {
+  li:not(:first-child) {
       margin-left: 22px;
     }
-  }
   a {
     text-indent: -9999px;
     overflow: hidden;

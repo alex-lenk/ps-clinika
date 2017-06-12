@@ -3,7 +3,6 @@
 }
 
 .persona-content {
-  width: 73%;
   padding: 130px 30px 130px 60px;
   color: #2e2e2e;
   background-color: rgba(#fff, .6);
@@ -19,8 +18,6 @@
 
 .persona-text {
   margin-bottom: 40px;
-  font-size: 18px;
-  line-height: 1.7;
   @include GeometriaMediumItalic;
   &::before, &::after {
     display: inline;

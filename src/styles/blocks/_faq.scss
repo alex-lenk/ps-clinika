@@ -3,13 +3,8 @@
   display: flex;
 }
 
-.faq-media {
-  margin-right: 55px;
-  max-width: 500px;
-  flex: 1 0 500px;
-  img {
-    border-radius: 10px;
-  }
+.faq-media img {
+  border-radius: 10px;
 }
 
 .faq-title {

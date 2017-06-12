@@ -39,7 +39,7 @@ var way = {
         html_template: 'src/template/*.html',
         js: 'src/js/*.js',
         styles: 'src/styles/*.scss',
-        styles_blocks: 'src/styles/locks/*.scss',
+        styles_blocks: 'src/styles/bocks/*.scss',
         styles_common: 'src/styles/common/*.scss',
         styles_lib: 'src/styles/lib/*.scss',
         img: 'src/img/**/*.*',

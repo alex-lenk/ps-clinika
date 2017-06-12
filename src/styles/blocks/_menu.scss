@@ -5,37 +5,11 @@
 }
 
 .menu {
-  height: 85px;
-  margin-bottom: 0;
-  font-size: 20px;
   text-transform: uppercase;
   list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   @include GeometriaBold;
   li {
     position: relative;
-    &:not(:first-child):not(:last-child):not(.active) a {
-      padding: 0 56px;
-    }
-    &:not(:last-child)::after {
-      width: 3px;
-      height: 38px;
-      top: 50%;
-      right: 0;
-      margin-top: -19px;
-      background-color: #008ed3;
-      position: absolute;
-      content: '';
-      transform: rotateZ(33deg);
-    }
-    &:first-child:not(.active) a {
-      padding-right: 56px;
-    }
-    &:last-child:not(.active) a {
-      padding-left: 56px;
-    }
     &:not(.active) {
       a:hover, a:focus {
         color: #008ed3;
@@ -47,15 +21,11 @@
     border-bottom: 0;
   }
   .active {
-    &:not(:first-child):not(:last-child) {
-      padding-left: 26px;
-      padding-right: 26px;
-    }
     &:first-child {
-      padding-right: 26px;
+      padding-right: 30px;
     }
     &:last-child {
-      padding-left: 26px;
+      padding-left: 30px;
     }
     a {
       padding: 12px 30px 10px;
@@ -67,3 +37,4 @@
     }
   }
 }
+

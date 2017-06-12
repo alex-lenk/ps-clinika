@@ -10,8 +10,6 @@
 .reviews-item {
   padding-top: 33px;
   position: relative;
-  max-width: calc(100% / 3 - 30px);
-  flex-basis: calc(100% / 3 - 30px);
   &::before {
     width: 20px;
     height: 16px;
@@ -24,7 +22,6 @@
 }
 
 .reviews-text {
-  min-height: 150px;
   margin-bottom: 10px;
   color: #404553;
   line-height: 1.5;
