@@ -5,6 +5,12 @@ $(document).ready(function () {
         fade: true
     });
 
+    $('.carousel-gallery').slick({
+        dots: true,
+        arrows: false,
+        fade: true
+    });
+
     $(".navbar-toggle").click(
         function () {
             $('.menu').toggleClass("menu-active");

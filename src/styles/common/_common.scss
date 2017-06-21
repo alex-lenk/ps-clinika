@@ -169,3 +169,17 @@ button, input, select, textarea {
 .text-blue-light {
   color: #737f9d;
 }
+
+.block-title {
+  margin-bottom: 30px;
+  font-size: 24px;
+  a {
+    border-bottom: none;
+  }
+}
+
+.block-text {
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 1.8;
+}

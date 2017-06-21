@@ -1,0 +1,28 @@
+.gallery {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f5f9f9;
+  display: flex;
+  align-items: center;
+  .slick-dots {
+    bottom: -43px;
+    width: 100%;
+    padding-left: 0;
+    justify-content: center;
+  }
+  .slick-dots li:not(.slick-active) button {
+    background-color: #c1c1c1;
+    box-shadow: none;
+  }
+  img {
+    min-width: 471px;
+    border-radius: 10px;
+  }
+}
+
+.carousel-gallery {
+  width: 100%;
+  max-height: 338px;
+  max-width: 471px;
+  flex-basis: 471px;
+}
