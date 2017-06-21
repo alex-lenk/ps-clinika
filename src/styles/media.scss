@@ -58,24 +58,6 @@
   }
 }
 
-@media (min-width: 530px) and (max-width: 782px) {
-  .main-slider-content {
-    width: 100%;
-    padding-left: 15px;
-  }
-  .main-slider-text {
-    padding-top: 20px;
-    margin-bottom: 20px;
-  }
-  .contacts-order {
-    max-width: 49%;
-  }
-  .main-slider-content .btn-blue {
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-}
-
 @media (max-width: 782px) {
   .container, .container-fluid {
     width: 100%;
@@ -175,10 +157,21 @@
   }
 }
 
-@media (min-width: 530px) {
-  .persona-text {
-    font-size: 18px;
-    line-height: 1.7;
+@media (min-width: 530px) and (max-width: 782px) {
+  .main-slider-content {
+    width: 100%;
+    padding-left: 15px;
+  }
+  .main-slider-text {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contacts-order {
+    max-width: 49%;
+  }
+  .main-slider-content .btn-blue {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
@@ -226,29 +219,10 @@
   }
 }
 
-@media (min-width: 1007px) {
-  .active:not(:first-child):not(:last-child) {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .main-slider-title {
-    margin-bottom: 35px;
-    font-size: 44px;
-  }
-  .about-us-media {
-    margin-left: 55px;
-    max-width: 360px;
-    flex: 1 0 360px;
-  }
-  .reviews-item {
-    max-width: calc(100% / 3 - 30px);
-    flex-basis: calc(100% / 3 - 30px);
-  }
-  .reviews-text {
-    min-height: 150px;
-  }
-  .consultation .form-group {
-    width: 326px;
+@media (min-width: 530px) {
+  .persona-text {
+    font-size: 18px;
+    line-height: 1.7;
   }
 }
 
@@ -314,6 +288,32 @@
   .main-slider-text {
     margin-bottom: 20px;
     font-size: 16px;
+  }
+}
+
+@media (min-width: 1007px) {
+  .active:not(:first-child):not(:last-child) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .main-slider-title {
+    margin-bottom: 35px;
+    font-size: 44px;
+  }
+  .about-us-media {
+    margin-left: 55px;
+    max-width: 360px;
+    flex: 1 0 360px;
+  }
+  .reviews-item {
+    max-width: calc(100% / 3 - 30px);
+    flex-basis: calc(100% / 3 - 30px);
+  }
+  .reviews-text {
+    min-height: 150px;
+  }
+  .consultation .form-group {
+    width: 326px;
   }
 }
 
