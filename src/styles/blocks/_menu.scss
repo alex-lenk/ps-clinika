@@ -42,3 +42,31 @@
   }
 }
 
+.navbar-toggle {
+  padding: 15px;
+  background-color: #2698f0;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  &::before {
+    width: 20px;
+    height: 1px;
+    margin-right: 20px;
+    content: '';
+    background-color: #ffffff;
+    box-shadow: 0 5px 0 0 #ffffff, 0 -5px 0 0 #ffffff;
+  }
+}
+
+.navbar-toggle-text {
+  padding-top: 4px;
+  line-height: 1;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
