@@ -170,6 +170,14 @@ button, input, select, textarea {
   color: #737f9d;
 }
 
+.page-block {
+  display: flex;
+  align-items: center;
+  img {
+    border-radius: 10px;
+  }
+}
+
 .block-title {
   margin-bottom: 30px;
   font-size: 24px;
