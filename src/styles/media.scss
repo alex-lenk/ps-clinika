@@ -25,6 +25,10 @@
       letter-spacing: 1px;
     }
   }
+  .motivation-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 @media (max-width: 1006px) {
@@ -55,6 +59,28 @@
   }
   .reviews-text {
     margin-bottom: 20px;
+  }
+  .motivation-list {
+    flex-direction: column;
+    li:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+
+  .live-broadcast-right {
+    padding-left: 30px;
+  }
+  .gallery, .article, .advantages {
+    flex-direction: column;
+  }
+  .carousel-gallery, .article-media, .advantages-media {
+    margin-bottom: 80px;
+  }
+  .gallery-content {
+    width: 100%;
+  }
+  .article-content {
+    order: 2;
   }
 }
 
@@ -154,6 +180,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+  .live-broadcast {
+    flex-direction: column;
+    align-items: center;
+  }
+  .live-broadcast-left {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+  .live-broadcast-right {
+    min-width: 250px;
+    padding-left: 0;
   }
 }
 
@@ -278,6 +317,14 @@
     right: 0;
     top: 0;
   }
+
+  .carousel-gallery {
+    max-height: 338px;
+  }
+  .carousel-gallery, .article-media, .advantages-media {
+    max-width: 471px;
+    flex: 1 0 471px;
+  }
 }
 
 @media (min-width: 783px) and (max-width: 1006px) {
@@ -314,6 +361,24 @@
   }
   .consultation .form-group {
     width: 326px;
+  }
+  .page-block {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .advantages {
+    padding-right: 4%;
+  }
+  .motivation-list {
+    justify-content: space-between;
+  }
+  .gallery-content, .advantages-content {
+    padding-left: 8%;
+    flex-grow: 1;
+  }
+  .article-content {
+    padding-right: 8%;
+    flex: 1 1 auto;
   }
 }
 
@@ -361,6 +426,10 @@
     max-width: 40%;
     flex: 1 0 40%;
   }
+  .motivation-list li {
+    max-width: calc(100% / 3 - 10px);
+    flex-basis: calc(100% / 3 - 10px);
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1255px) {
@@ -400,6 +469,14 @@
     left: 50px;
     padding: 19px 37px;
     letter-spacing: 2px;
+  }
+  .motivation-wrap {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .motivation-list li {
+    max-width: calc(100% / 3 - 30px);
+    flex-basis: calc(100% / 3 - 30px);
   }
 }
 

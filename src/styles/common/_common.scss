@@ -98,6 +98,25 @@ h4 {
     margin-bottom: 0;
     list-style: none;
   }
+  &-tick {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    li {
+      padding-left: 30px;
+      margin-bottom: 10px;
+      position: relative;
+      &::before {
+        width: 25px;
+        height: 22px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: '';
+        background: url(../img/spritesheet.png) 0px -33px no-repeat;
+      }
+    }
+  }
 }
 
 .clearfix {
